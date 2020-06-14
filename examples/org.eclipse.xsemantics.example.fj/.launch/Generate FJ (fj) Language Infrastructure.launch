@@ -12,7 +12,7 @@
 </listAttribute>
 <stringAttribute key="org.eclipse.debug.core.ATTR_REFRESH_SCOPE" value="${working_set:&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;resources&gt;&#10;&lt;item path=&quot;/org.eclipse.xsemantics.example.fj.parent&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/org.eclipse.xsemantics.example.fj&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/org.eclipse.xsemantics.example.fj.ide&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/org.eclipse.xsemantics.example.fj.ui&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/org.eclipse.xsemantics.example.fj.target&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/org.eclipse.xsemantics.example.fj.tests&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/org.eclipse.xsemantics.example.fj.ui.tests&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/org.eclipse.xsemantics.example.fj.tests&quot; type=&quot;4&quot;/&gt;&#10;&lt;item path=&quot;/org.eclipse.xsemantics.example.fj.ui.tests&quot; type=&quot;4&quot;/&gt;&#10;;&lt;/resources&gt;}"/>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.eclipse.emf.mwe2.launch.runtime.Mwe2Launcher"/>
-<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="org.eclipse.xsemantics.example.fj.GenerateFJ"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="org.eclipse.xsemantics.example.fj.FJ"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="org.eclipse.xsemantics.example.fj"/>
 <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Xmx512m"/>
 </launchConfiguration>
