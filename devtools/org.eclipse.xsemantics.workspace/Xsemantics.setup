@@ -235,9 +235,9 @@
       <requirement
           name="org.sonatype.m2e.buildhelper.feature.feature.group"/>
       <repository
-          url="http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-tycho/0.9.0/N/LATEST"/>
+          url="https://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-tycho/0.9.0/N/LATEST"/>
       <repository
-          url="http://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-buildhelper/0.15.0/N/0.15.0.201207090124/"/>
+          url="https://repo1.maven.org/maven2/.m2e/connectors/m2eclipse-buildhelper/0.15.0/N/0.15.0.201207090124/"/>
       <description>Maven connector</description>
     </setupTask>
   </setupTask>
@@ -370,6 +370,23 @@
         <repository
             url="https://dl.bintray.com/lorenzobettini/xtext-xdoc/updates/"/>
       </repositoryList>
+      <repositoryList
+          name="2020-03">
+        <repository
+            url="http://download.eclipse.org/releases/2020-03"/>
+        <repository
+            url="http://download.eclipse.org/cbi/updates/license/1.0.1.v20140414-1359"/>
+        <repository
+            url="http://download.itemis.com/updates/releases/2.1.1/"/>
+        <repository
+            url="${xtext.site}"/>
+        <repository
+            url="${mwe2.site}"/>
+        <repository
+            url="http://download.eclipse.org/technology/swtbot/releases/latest/"/>
+        <repository
+            url="https://dl.bintray.com/lorenzobettini/xtext-xdoc/updates/"/>
+      </repositoryList>
     </targlet>
   </setupTask>
   <setupTask
@@ -398,7 +415,7 @@
             pattern=".*\.tests(\..*)?"/>
         <operand
             xsi:type="workingsets:ExclusionPredicate"
-            excludedWorkingSet="//@setupTasks.13/@workingSets.0"/>
+            excludedWorkingSet="//@setupTasks.13/@workingSets[name='Examples']"/>
       </predicate>
     </workingSet>
     <workingSet
@@ -437,7 +454,7 @@
             project="org.eclipse.xsemantics.sdk"/>
         <operand
             xsi:type="workingsets:ExclusionPredicate"
-            excludedWorkingSet="//@setupTasks.13/@workingSets.0 //@setupTasks.13/@workingSets.1 //@setupTasks.13/@workingSets.2"/>
+            excludedWorkingSet="//@setupTasks.13/@workingSets[name='Examples'] //@setupTasks.13/@workingSets[name='Tests'] //@setupTasks.13/@workingSets[name='Releng']"/>
         <operand
             xsi:type="predicates:NaturePredicate"
             nature="org.eclipse.pde.FeatureNature"/>
@@ -452,7 +469,7 @@
             project="org.eclipse.xsemantics.sdk"/>
         <operand
             xsi:type="workingsets:ExclusionPredicate"
-            excludedWorkingSet="//@setupTasks.13/@workingSets.0 //@setupTasks.13/@workingSets.1"/>
+            excludedWorkingSet="//@setupTasks.13/@workingSets[name='Examples'] //@setupTasks.13/@workingSets[name='Tests']"/>
         <operand
             xsi:type="predicates:NaturePredicate"
             nature="org.eclipse.pde.PluginNature"/>
@@ -550,18 +567,18 @@
     <setupTask
         xsi:type="setup:VariableTask"
         name="mwe2.site"
-        value="http://download.eclipse.org/modeling/emft/mwe/updates/releases/2.11.1/"/>
+        value="http://download.eclipse.org/modeling/emft/mwe/updates/releases/2.11.2"/>
     <setupTask
         xsi:type="setup:VariableTask"
         name="xtext.site"
-        value="http://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.20.0"/>
+        value="http://download.eclipse.org/modeling/tmf/xtext/updates/releases/2.21.0"/>
     <setupTask
         xsi:type="setup.p2:P2Task"
         id="p2.org.eclipse.xtext.2.10"
         label="Xtext Releases">
       <requirement
           name="org.eclipse.xtext.sdk.feature.group"
-          versionRange="[2.20.0,2.21.0)"/>
+          versionRange="[2.21.0,2.22.0)"/>
       <requirement
           name="de.itemis.xtext.antlr.feature.feature.group"/>
       <repository

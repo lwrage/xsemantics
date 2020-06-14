@@ -14,7 +14,7 @@ Contributors:
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.eclipse.xsemantics</groupId>
 	<artifactId>org.eclipse.xsemantics.parent</artifactId>
-	<version>1.19.0-SNAPSHOT</version>
+	<version>1.20.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>Xsemantics</name>
@@ -53,7 +53,7 @@ Contributors:
 	</issueManagement>
 	
 	<properties>
-		<tycho-version>1.5.0</tycho-version>
+		<tycho-version>1.7.0</tycho-version>
 		<tycho-extras-version>${tycho-version}</tycho-extras-version>
 		<maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
 		<maven-antrun-plugin.version>1.7</maven-antrun-plugin.version>
@@ -63,9 +63,9 @@ Contributors:
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		<xtext.version>2.20.0</xtext.version>
+		<xtext.version>2.21.0</xtext.version>
 		<xtextVersion>${xtext.version}</xtextVersion>
-		<mwe2Version>2.11.1</mwe2Version>
+		<mwe2Version>2.11.2</mwe2Version>
 		<platform-version>[3.9,4.0)</platform-version>
 		<fornax-oaw-m2-plugin-version>3.5.1</fornax-oaw-m2-plugin-version>
 
